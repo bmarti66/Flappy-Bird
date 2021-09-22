@@ -1,3 +1,3 @@
 # Flappy Bird
 
-Flappy Bird game project
+My Flappy Bird game project
