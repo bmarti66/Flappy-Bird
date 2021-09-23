@@ -16,7 +16,6 @@ public class FlappyBird implements ActionListener
 	
 	public Renderer renderer;
 	
-	
 	public FlappyBird()
 	{
 		JFrame jframe = new JFrame();
@@ -49,6 +48,4 @@ public class FlappyBird implements ActionListener
 		flappyBird = new FlappyBird();
 	}
 
-
-	
 }
