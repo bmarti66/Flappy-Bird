@@ -115,14 +115,14 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 				yMotion = 0;
 			}
 
-			yMotion -= 10;
+			yMotion -= 9;
 		}
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e)
 	{
-		int speed = 10;
+		int speed = 8;
 
 		ticks++;
 
@@ -207,13 +207,13 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 		g.setColor(Color.cyan);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
 
-		g.setColor(Color.orange);
+		g.setColor(Color.orange.darker());
 		g.fillRect(0, HEIGHT - 120, WIDTH, 120);
 
 		g.setColor(Color.green);
 		g.fillRect(0, HEIGHT - 120, WIDTH, 20);
 
-		g.setColor(Color.red);
+		g.setColor(Color.pink);
 		g.fillRect(bird.x, bird.y, bird.width, bird.height);
 
 		for (Rectangle column : columns)
@@ -291,5 +291,4 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 	{
 
 	}
-
 }
