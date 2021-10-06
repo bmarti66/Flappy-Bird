@@ -1,5 +1,5 @@
 # Flappy Bird
 
-My Flappy Bird game project
+Basic Flappy Bird game project
 
 Coded in Java
