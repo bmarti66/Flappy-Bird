@@ -1,7 +1,6 @@
 package flappyBird;
 
 import java.awt.Graphics;
-
 import javax.swing.JPanel;
 
 public class Renderer extends JPanel
@@ -16,5 +15,4 @@ public class Renderer extends JPanel
 
 		FlappyBird.flappyBird.repaint(g);
 	}
-	
 }
