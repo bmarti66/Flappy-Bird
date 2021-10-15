@@ -12,7 +12,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Random;
-
 import javax.swing.JFrame;
 import javax.swing.Timer;
 
@@ -123,7 +122,6 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 	public void actionPerformed(ActionEvent e)
 	{
 		int speed = 8;
-
 		ticks++;
 
 		if (started)
@@ -283,12 +281,10 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 	@Override
 	public void keyTyped(KeyEvent e)
 	{
-
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e)
 	{
-
 	}
 }
